@@ -13,8 +13,8 @@ import requests
 predict_bp = Blueprint("predict_bp", __name__)
 
 # URL endpoint Laravel untuk mendapatkan file model dan label encoder
-model_url = 'http://127.0.0.1:8000/get-model'
-label_encoder_url = 'http://127.0.0.1:8000/get-label-encoder'
+model_url = 'https://2843-103-126-87-102.ngrok-free.app/get-model'
+label_encoder_url = 'https://2843-103-126-87-102.ngrok-free.app/get-label-encoder'
 
 # Path lokal untuk menyimpan model dan label encoder
 MODEL_PATH = 'face_model.h5'
